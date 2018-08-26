@@ -1,0 +1,100 @@
+show a
+a = 4
+{-
+quickSort []
+quickSort 
+quickSort ints
+ints = [1,2,343,22, 22,44]
+Ints = [1,2,343,22, 22,44]
+quickSort dictionary 
+dictionary = ["I", "have", "a", "thing", "for", "Linux"]
+quickSort dictionary = ["I", "have", "a", "thing", "for", "Linux"]
+:type quickSort 
+:quickSort
+quickSort [1,3,543,22,54]
+quickSort [1,3,543,22, 54]
+-}
+    more = filter (> x )xs
+    equal = filter (= x) xs
+    less = filter (< x) xs
+  where
+quickSort (x : xs) = (quickSort less) ++ (x : equal) ++ (quickSort more)
+{- 
+quickSort (x : xs) = (quickSort less) ++ (x : equal) ++ (quickSort more) \
+quickSort (x : xs) = (quickSort less) ++ (x : equal) ++ (quickSort more)
+:set +m
+quickSort (x : xs) = (quickSort less) ++ (x : equal) ++ (quickSort more)
+quickSort [] = []
+map (\x -> x + 2) [1..10]
+map (\x -> x + 2) [1..]
+map (\x -> x + 2) [1..2]
+]
+map (\x -> x + 2) [1..2
+map (\x -> x + 2) [1..10]
+map (\x -> x + 2) [1.. 10]
+map f (x:xs) = f x : map f xs
+map isNegativeZero  [1]
+map isOdd [1]
+map (\x -> x +2) [1]
+map (\x -> x +1) [1]
+map f [1]
+map [1]
+map f [1] = [1]
+map _ [] = []
+map (\x -> x + 1)
+map (\x -> x + 1)[1]
+map (\x -> x + 1)[]
+map (\x = x + 1)[]
+map (\x <- x + 1)[]
+map (\x > x + 1)[]
+map (\x -> x + 1)[]
+map []
+map _ [] = []
+showName (F("maqbool"))
+showName (F first) = first 
+showName (FML) = first ++ " " ++ middle ++ " " ++ last  
+showName maqbool
+showName (FML  first middle last) = first ++ " " ++ middle ++ " " ++ last  
+showName (FML  first middle last) =
+getName maqbool
+getName 3
+:type getName 
+-}
+getName name = name
+{- getName :: Name -> Name  
+:type  getName 
+getName x = x
+{- getName :: Name -> Name -}
+{- getName :: Name -> Name -}
+getName :: Name -> Name
+getName maqbool 
+getName "string"
+getName 2
+getName 1
+getName maqbool
+getName x = x
+:type maqbool 
+maqbool = FML "mohd" "maqbool" "alam"
+isNan
+:t isNan
+:type isNan 
+isNan 4
+isInfinite 3
+isIEEE 0.434334444444444444444444444444444444444444444444444444444444444444444444444444444444444
+isIEEE 0.44
+isIEEE 34
+:type F
+:type FML
+:type FL
+:type fl
+fl
+fl = FL "maqbool" "alam"
+:type fml
+putStrLn (show(fml))
+putStrLn show(fml)
+show(fml)
+fml = FML "mohd" "maqbool" "alam"
+data Name = FML String String String | F String | FL String  String deriving(Eq, Show)
+show(fml)
+putStr fml
+fml
