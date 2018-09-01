@@ -1,3 +1,391 @@
+:load record.hs 
+MkPerson "apple" 2
+:load record.hs 
+:load record.hs 
+:load record.hs 
+:load record.hs 
+MkPerson "apple" 2
+:load record.hs 
+MkPerson "apple" 2
+:load record.hs 
+:load record.hs 
+:load record.hs 
+:load record.hs 
+:t name
+name 
+:t MkEmp 
+:t MkPerson 
+b
+b = MkPerson "apple"
+show(a)
+a
+a
+a = MkEmp "apple"
+Emp
+}
+  name :: String
+data Emp = MkEmp{
+}
+  name :: String
+data Person = MkPerson{
+}
+ ,Age  :: Int
+  name :: String
+data Person = MkPerson{
+:set +m
+data Person = MkPerson 
+data Person = MkPerson 
+:type MkTE
+:type MkTe
+:MkTE
+10 `subtract` 2
+subtract 10 2
+subtract 2 10
+2 `subtract` 10
+:info (->)
+:k (->)
+:i (->)
+:i (<-)
+:k (<-)
+ a =\x -> x +1
+\x -> x +1
+:k (->)
+:kind (->)
+:type (->)
+:}
+twoArgumentFunction :: (->) Int ((->) Char Bool)
+:{
+:type absurd 
+map absurd []
+map absurd [1,2]
+map absurd []
+import Data.Void 
+:t view a
+a
+a = Person "maqbool" "alam"
+:load Projects/playground/haskell/showPerson.hs 
+:load Projects/playground/haskell/showPerson.hs 
+:load Projects/playground/haskell/showPerson.hs 
+:load Projects/playground/haskell/showPerson.hs 
+a
+a = Person "maqbool" "alam"
+:load Projects/playground/haskell/showPerson.hs 
+a
+a = Person "maqbool" "alam"
+:load Projects/playground/haskell/showPerson.hs 
+a
+a = Person "maqbool" "alam"
+:load Projects/playground/haskell/showPerson.hs 
+a
+a = Person "maqbool" "alam"
+:load Projects/playground/haskell/showPerson.hs 
+a
+a = Person "maqbool" "alam"
+Person "apple" "mango"
+:load Projects/playground/haskell/showPerson.hs 
+:load Projects/playground/haskell/showPerson.hs 
+:load Projects/playground/haskell/showPerson.hs 
+:load Projects/playground/haskell/showPerson.hs 
+       first :: String 
+data Person =  { 
+}
+       last  :: String
+       first :: String
+data Person = {
+}
+          zipcode :: Int
+          last  :: String
+          middle :: String,
+data Person  = { first :: String,
+:sprint fac 
+fac 3
+:sprint fac 
+:sprint fac 3
+:sprint fac 
+:}
+fac n = if n <= 1 then 1 else n * fac (n-1)
+fac :: Int -> Int
+:{
+:}
+fun x = x + 1
+fun :: ()
+:{
+fun :: ()
+:type foldr1
+const 3 4
+:type const
+const a
+mylist a
+mylist = foldr1 (const id)
+last1 a
+last1 = head . reverse 
+a
+head . reverse a
+flip 3
+const 2
+mylist(a)
+mylist (_:xs) = mylist xs
+mylist (_:xs) = mylistt xs
+mylist (_:xs) = mylast xs
+mylist [_:xs] = mylist xs
+mylist [_:xs] = mylast xs
+mylist [x] = x
+myLast []
+myLast [] = error "list is empty"
+error "welco"
+:type error
+error
+myLast []
+myLast [] = error
+a
+last a
+take 1 a
+take 0 a
+take 
+reverse a
+:type a
+a = [1,23,4]
+:load parlist.hs 
+runEval
+rpar
+import Control.
+factorial 70000
+factorial 7000
+factorial 700
+factorial 700000
+factorial 8000
+factorial 4000
+factorial 3300
+factorial 30
+factorial 3
+:}
+factorial n = n * factorial(n-1)
+factorial 1 = 1
+factorial 0  = 1
+:{
+:sprint z
+z
+x
+:sprint z
+:spring z
+seq x ()
+:sprint z
+seq z ()
+:sprint z
+let z = swap(x, x+1)
+import Data.Tuple 
+:sprint z
+let z = (x,x)
+let x = 1 + 2 :: Int
+let z = (x,x)
+let x = 1 + 2 :: Int
+:sprint z
+seq z ()
+:sprint z
+let z = swap (x, x+1)
+import Data.Tuple
+:sprint z
+x
+:sprint z
+let z = (x, x)
+le z (x, x)
+let x = 1 + 2 :: Int
+seq 4 5
+:type seq
+:sprint y
+:sprint x
+seq y ()
+:sprint y
+:sprint x
+let y = x + 1
+let x = 1 + 2 :: Int
+:sprint x
+x
+:sprint x
+x = 1 + 2 :: Int
+x = 1 + 2 :: INt
+:sprint x
+:type x
+x
+let x = 1 + 2 :: Int
+:t []
+fib (!4)
+:type (!)
+fib !4
+:}
+fib n = n * fib(n-1)
+fib 1 = 1
+fib 0 = 1
+:{
+:showi language
+:show modules
+:help
+import Data.List
+   :set prompt "\ESC[34m\STX%s > \ESC[m\STX"
+quickSort [3,5,88]
+print [2,3435,34343]
+print(x:xs) = x
+filter (<2) [1,0,2,4]
+:type map
+:type filter
+quickSort [4,283,55]
+quickSort []
+:}
+quickSort(x:xs) = quickSort(filter (<x) xs) ++ [x] ++ quickSort(filter (>=x) xs)
+quickSort [] = []
+:{  
+:{  :}
+:{:}
+plusInteger
+:}
+fib (n+2) = fib(n+1) + fib(n+2)
+fib 1 = 1
+fib 0 = 1
+:{
+negate 3
+negate x = (-x)
+negate 5
+negate 3
+negate x  =  0 - x
+sum []
+sum 0
+sum 
+:kind infixl
+infixl 9  (!!)
+infixl 9  !!
+inflix 9 !!
+:t (!!)
+:type pure
+:t El "a"
+:t El 4
+:t El
+data El = El Int | String deriving (Show)
+:t El
+data El =  Int | String deriving (Show)
+:t Pair
+:kind El 
+:type El
+El
+data El = Pair Int  String deriving (Show)
+data El = Pair Int 
+:t Pair
+Pair
+:t Just
+:t value
+value = Just 3
+value Just 3
+:t value
+:k value
+value = Nothing
+data Maybe a  = Nothing | Just a deriving(Show)
+data Maybe a  = Nothing | Just a derving(Show)
+value
+value = Nothing
+:k Maybe 
+:t Maybe 
+data Maybe a  = Nothing | Just a
+data Maybe  = Nothing | Just a
+data Maybe  = Nothing
+:type a
+a
+a = Branch 4 
+a = Branch 4 (BBTree 4) (BBTree 6)
+a = Leaf BBTree(4) 
+:type a
+a = Leaf True
+:type a
+a
+a = Leaf 4
+a = BBTree 3
+:k BBTree 
+BBTree 
+:type BBTree 
+data BBTree a = Leaf a | Branch a (BBTree a) (BBTree a) deriving (Show)
+data BBTree a = Leaf a | Branch a BBTree a BBTree a deriving (Show)
+data BBTree a = Leaf a | Branch a (BBTree a) (BBTree a) deriving (Show)
+data BBTree a = Leaf a | Branch a BBTree BBTree deriving (Show)
+:showi language 
+:showi 
+:history 
+:k branch 
+:type branch 
+show(leafR)
+show(leafL)
+show (branch)
+:type branch 
+branch = Branch True leafL leafR
+Branch True leafL leafR
+leafR = Leaf(False)
+leafR = Leaf(True)
+leafL = Leaf(True)
+leaf = Leaf(True)
+data BBTree = Leaf Bool | Branch Bool BBTree BBTree deriving (Show)
+data BBTree = Leaf Bool | Branch Bool BBTree BBTree deriving (show)
+data BBTree = Leaf Bool | Branch Bool BBTree BBTree deriving (Show)
+data BBTree = Leaf Bool | Branch Bool BBTree BBTree deriving (show)
+:leaf
+leaf
+leaf = Leaf(True)
+:type Branch
+:type Leaf
+data BBTree = Leaf Bool | Branch Bool BBTree BBTree
+data BBTree = Leaf Bool | Branch Bool BBTree BTree
+:set editor  subl
+main
+:load Projects/playground/haskell/mergeSort.hs 
+:edit Projects/playground/haskell/mergeSort.hs 
+:set editor  gedit
+:edit Projects/playground/haskell/mergeSort.hs 
+:set editor  subl
+:set editor 
+:edit Projects/playground/haskell/mergeSort.hs 
+:?
+l
+factorial 0
+factorial 3
+:}
+factorial n = n * factorial(n-1)
+factorial 0 = 1
+:{
+factorial 3
+-}
+factorial n = n * factorial(n-1)
+factorial 0 = 1
+{- 
+factorial 3
+factorial n = n * factorial(n-1)
+factorial 1 = 1
+factorial 0 = 1
+factorial 3
+factorial n = n * factorial(n-1)
+factorial 1 = 1
+factorial 0 = 1
+:type fac
+factorial 4
+factorial 3
+factorial 0
+:load fac.hs 
+fac 0
+fac 1
+fac n = n  * fac(n-1)
+fac 1 = 1
+fac 0 = 1
+fac 1
+fac 2
+fac 0
+fac 0 = 1
+fac n = n * fac(n-1)
+factorial 4
+factorial 2
+factorial n = if n < 2 then 1 else n * factorial (n-1)
+fac 1
+:type fac
+fac
+fac n = n * fac(n-1)
+fac 0 = 1
+fac 3
+fac n = n * fac(n-1)
+fac 0 = 1
 :k IO
 :t IO()
 :t IO
