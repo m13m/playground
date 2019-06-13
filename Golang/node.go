@@ -4,7 +4,7 @@ import "fmt"
 
 type Node struct {
 	Value int
-	Left *Node
+	Left  *Node
 	Right *Node
 }
 
@@ -22,21 +22,17 @@ func main() {
 
 	fmt.Println(age)
 
-
-
-	test2:= &Node {
+	test2 := &Node{
 		Value: 123,
-
 	}
 
-	test:= &Node {
+	test := &Node{
 		Value: 123,
-		Left: test2,
+		Left:  test2,
 	}
-	
 
-	printNode(test )
-	
+	printNode(test)
+
 	fmt.Println(age)
 
 }
