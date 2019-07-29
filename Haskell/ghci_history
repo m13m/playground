@@ -1,3 +1,20 @@
+:t liftA2
+import Control.Applicative
+import List
+:t liftA2
+import Control.Monad
+:t liftA2
+:t liftA2
+replicate 3 "ab"
+replicate 3 'ab'
+replicate 3 'a'
+(let w = 'w' in [w,w,w])
+)
+(let w = 'w' in [w,w,w]_
+(let x = 'w' in [x, 'o', x]) ++ "!"
+(let x = 'w' in [x, 'o', x])
+(let x = 'w' in [x, 'o', x]) ++ '!'
+let x = 'w' in [x, 'o', x] ++ '!'
 main
   putStrLn "Couting"
 main = do
