@@ -1,0 +1,17 @@
+apiVersion : v1
+kind : Service  
+metadata :
+  name : web-service
+  labels :    
+
+
+spec :    
+
+
+status :
+  loadBalancer :
+    ingress :
+      - hostname : web-service.example.com
+        ip : 10.0.0.1
+        port : 80
+``` 
